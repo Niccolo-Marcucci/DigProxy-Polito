@@ -1,4 +1,4 @@
-browser.browserAction.onClicked.addListener(function (activeTab) {
+chrome.browserAction.onClicked.addListener(function (activeTab) {
     var url = activeTab.url;
     var start_pos = url.indexOf("//")+2;
     var protocol = url.slice(0,start_pos-1);
@@ -6,5 +6,5 @@ browser.browserAction.onClicked.addListener(function (activeTab) {
     var remaining = url.slice(end_pos);
     var mainUrl = url.slice(start_pos,end_pos);
     var newURL = protocol + mainUrl.replace(/\./g,"-") +  ".ezproxy.biblio.polito.it"+ remaining;
-    browser.tabs.create({url: newURL});
+    chrome.tabs.create({url: newURL});
 });
