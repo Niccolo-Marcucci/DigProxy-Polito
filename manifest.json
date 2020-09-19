@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "DigProxy service by Politecnico di Torino",
+  "name": "DigProxy PoliTO",
   "version": "1.0",
   "description": "Allows to open the active website using the proxy service (ezproxy.biblio.polito.it) offered by the library of the university.",
   "browser_action": {
