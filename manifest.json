@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "DigProxy service by Politecnico di Torino",
   "version": "1.0",
-  "description": "Four-line-code extension that allows to open (into a new tab) the active website using the proxy service (ezproxy.biblio.polito.it) offered by the library of Politecnico di Torino.",
+  "description": "Allows to open the active website using the proxy service (ezproxy.biblio.polito.it) offered by the library of the university.",
   "browser_action": {
     "default_icon": "icon.png"
   },  
